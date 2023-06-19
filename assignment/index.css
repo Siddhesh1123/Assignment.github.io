@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.upperpart {
+  padding-top: 50px;
+  background-color: goldenrod;
+  height: 700px;
+}
+.name {
+  color: white;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.emote {
+  opacity: 0.4;
+  padding-top: 30px;
+  width: 90px;
+  height: 60px;
+  font-size: x-large;
+  font-weight: bolder;
+  border-radius: 50%;
+  text-align: center;
+  background: #4b4b4b;
+  
+}
+.down-arrow {
+    width: 0px;
+    height: 0px;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 60px solid goldenrod;    
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: mediumvioletred;
+  height: 215px;
+}
