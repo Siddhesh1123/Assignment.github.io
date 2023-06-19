@@ -42,3 +42,10 @@ footer {
   background-color: mediumvioletred;
   height: 215px;
 }
+@media only screen and (max-width: 600px) {
+    .down-arrow {
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 40px solid goldenrod;
+    }
+}
